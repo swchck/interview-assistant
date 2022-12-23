@@ -4,8 +4,8 @@ import Header from "../components/Header.vue";
 </script>
 
 <template>
-  <div>
-    <Header />
-    <RouterView />
+  <div style="max-height: 100vh">
+    <Header style="max-height: 10vh" />
+    <RouterView style="max-height: 90vh" />
   </div>
 </template>

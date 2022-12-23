@@ -6,7 +6,7 @@ import MessageBox from "../components/chat/MessageBox.vue";
 
 <template>
   <div
-    class="flex-1 p:2 sm:p-6 justify-between flex flex-col mx-auto px-4 sm:px-6 lx:px-8 max-w-7xl h-screen"
+    class="sm:p-6 flex flex-col px-4 sm:px-6 lx:px-8"
   >
     <ChatHeader />
     <ChatMessages />

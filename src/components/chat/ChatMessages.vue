@@ -3,7 +3,7 @@ import Message from "./Message.vue";
 </script>
 
 <template>
-  <div class="overflow-scroll h-fit">
+  <div class="overflow-scroll">
     <div
       id="messages"
       class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
