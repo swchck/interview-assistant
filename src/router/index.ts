@@ -13,6 +13,11 @@ const router = createRouter({
             component: () => import("../views/ChatView.vue"),
         },
         {
+            path: "/projects",
+            name: "Projects",
+            component: () => import("../views/ProjectsView.vue")
+        },
+        {
             path: "/add-form",
             name: "Add Form",
             component: () => import("../views/AddQuestionsView.vue")

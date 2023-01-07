@@ -8,14 +8,7 @@
     <title>Interview Assistant</title>
   </head>
   <body style="-webkit-app-region: drag" style="display: block" class="h-full min-h-full">
-    <div id="app"></div>
+    <div id="app" class="overflow-hidden"></div>
     <script type="module" src="/src/main.ts"></script>
-    <script src="wasm_exec.js"></script>
-    <script type="module">
-      const go = new Go();
-      WebAssembly.instantiateStreaming(fetch("api.wasm"), go.importObject).then((result) => {
-        go.run(result.instance);
-      });
-    </script>
   </body>
 </html>

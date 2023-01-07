@@ -20,7 +20,8 @@ onMounted(() => {
 
 <template>
   <div
-    class="overflow-scroll py-2 scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 h-screen"
+    class="overflow-scroll py-2 scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2"
+    style="height: calc(100vh - 112px - 136px - 74px)"
   >
     <div
       id="messages"

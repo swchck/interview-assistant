@@ -1,27 +1,12 @@
-<script lang="ts">
+<script setup lang="ts">
 import { defineComponent } from "vue";
 
-export default defineComponent({
-  data() {
-    return {
-      buttons: [
-        {
-          name: "Добавить форму",
-          link: "",
-        },
-        {
-          name: "Начать опрос форму",
-          link: "",
-        },
-        {
-          name: "Просмотреть ответы",
-          link: "",
-        },
-      ],
-    };
+const buttons = [
+  {
+    name: "Добавить Проект",
+    link: "",
   },
-  mounted() {},
-});
+];
 </script>
 
 <template>
@@ -49,7 +34,7 @@ export default defineComponent({
               clip-rule="evenodd"
             />
           </svg>
-          Publish
+          {{button.name}}
         </button>
       </span>
     </div>
